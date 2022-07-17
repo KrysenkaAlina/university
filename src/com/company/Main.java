@@ -1,7 +1,7 @@
 package com.company;
 
 public class Main {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         Student student1 = new Student("Ivanova","Larisa",18,new Adress("Borisov","Pavla raka","43a",55));
 
         Student student2 = new Student("Petrova","ALina",20,new Adress("Borisov","Pribory","1",88));
