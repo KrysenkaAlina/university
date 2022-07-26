@@ -1,4 +1,4 @@
-package com.company;
+package com.company.model;
 
 public class Adress {
 
@@ -7,7 +7,7 @@ public class Adress {
     public String house;
     public int flat;
 
-    Adress(String newcity, String newstreet, String newhouse, int newflat) {
+    public Adress(String newcity, String newstreet, String newhouse, int newflat) {
 
         city = newcity;
         street = newstreet;
@@ -47,7 +47,13 @@ public class Adress {
         this.flat = flat;
     }
 
-    String getAdress(){
-        return (this.city + ", " + this.street + ", " +this.house + ", " + this.flat);
+    @Override
+    public String toString() {
+        return "Adress{" +
+                "city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", house='" + house + '\'' +
+                ", flat=" + flat +
+                '}';
     }
 }
