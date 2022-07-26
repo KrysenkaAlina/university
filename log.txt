@@ -1,0 +1,63 @@
+Start project.
+constructor TeacherRepository
+Начало загрузки преподователей
+fileLine: 1 Ivanova Larisa 18 Borisov Pavlaraka 43a 55 1
+Данная запись не относится к проподователям Ivanova
+fileLine: 2 Petrova ALina 20 Borisov Pribory 1 88 1
+Данная запись не относится к проподователям Petrova
+fileLine: 3 Monich Anna 20 Vitebsk Sadovaya 234 3 2 1 3000
+fileLine: 4 Soroka Irina 44 Minsk Sadovaya 43d 22 1
+Данная запись не относится к проподователям Soroka
+fileLine: 5 Megel Dmitri 34 Minsk Sadovaya 55 11 2 1 1000
+fileLine: 6 Karaban Vasy 36 Minsk Sadovaya 7 51 1
+Данная запись не относится к проподователям Karaban
+fileLine: 7 Jiglov Pety 36 Minsk Sadovaya 7 51 2 2
+fileLine: 8 Barashkon Sashaa 36 Minsk Sadovaya 7 51 1
+Данная запись не относится к проподователям Barashkon
+fileLine: 9 Petrov Pety 36 Minsk Sadovaya 7 51 2 2
+Конец загрузки преподователей. количество:4
+TeacherRepository.getTeachers
+Teacher{salary=0.0, defSalary=2000.0, id=3}
+Teacher{salary=0.0, defSalary=2000.0, id=5}
+Teacher{salary=0.0, defSalary=2000.0, id=7}
+Teacher{salary=0.0, defSalary=2000.0, id=9}
+constructor StudentRepository
+Начало загрузки студентов
+fileLine: 1 Ivanova Larisa 18 Borisov Pavlaraka 43a 55 1
+fileLine: 2 Petrova ALina 20 Borisov Pribory 1 88 1
+fileLine: 3 Monich Anna 20 Vitebsk Sadovaya 234 3 2 1 3000
+Данная запись не относится к студентам Monich
+fileLine: 4 Soroka Irina 44 Minsk Sadovaya 43d 22 1
+fileLine: 5 Megel Dmitri 34 Minsk Sadovaya 55 11 2 1 1000
+Данная запись не относится к студентам Megel
+fileLine: 6 Karaban Vasy 36 Minsk Sadovaya 7 51 1
+fileLine: 7 Jiglov Pety 36 Minsk Sadovaya 7 51 2 2
+Данная запись не относится к студентам Jiglov
+fileLine: 8 Barashkon Sashaa 36 Minsk Sadovaya 7 51 1
+fileLine: 9 Petrov Pety 36 Minsk Sadovaya 7 51 2 2
+Данная запись не относится к студентам Petrov
+Конец загрузки студентов. количество:5
+StudentRepository.getStudents
+Ivanova Larisa 18 Adress{city='Borisov', street='Pavlaraka', house='43a', flat=55}
+Petrova ALina 20 Adress{city='Borisov', street='Pribory', house='1', flat=88}
+Soroka Irina 44 Adress{city='Minsk', street='Sadovaya', house='43d', flat=22}
+Karaban Vasy 36 Adress{city='Minsk', street='Sadovaya', house='7', flat=51}
+Barashkon Sashaa 36 Adress{city='Minsk', street='Sadovaya', house='7', flat=51}
+constructor MethodistService.
+constructor MethodistRepository
+Начало загрузки методистов
+fileLine: 1 Petrov Sashaa 36 Minsk Sadovaya 7 51 2000
+fileLine: 2 Klimov Sashaa 36 Minsk Sadovaya 7 57 3000
+Конец загрузки методичстов. количество:2
+MethodistService.getMethodists
+MethodistRepository.getMethodists
+Methodist{teachers=[Teacher{salary=0.0, defSalary=2000.0, id=3}, Teacher{salary=0.0, defSalary=2000.0, id=5}, Teacher{salary=0.0, defSalary=2000.0, id=7}, Teacher{salary=0.0, defSalary=2000.0, id=9}]}
+Methodist{teachers=[Teacher{salary=0.0, defSalary=2000.0, id=3}, Teacher{salary=0.0, defSalary=2000.0, id=5}, Teacher{salary=0.0, defSalary=2000.0, id=7}, Teacher{salary=0.0, defSalary=2000.0, id=9}]}
+constructor GroupService.
+constructor GroupRepository
+Старт загрузки групп
+Конец загрузки групп. Количество:2
+GroupService.getGroups
+GroupRepository.getGroups
+Group{name='Физка', course=22, arStudents=[Ivanova Larisa 18 Adress{city='Borisov', street='Pavlaraka', house='43a', flat=55}, Petrova ALina 20 Adress{city='Borisov', street='Pribory', house='1', flat=88}, Soroka Irina 44 Adress{city='Minsk', street='Sadovaya', house='43d', flat=22}, Karaban Vasy 36 Adress{city='Minsk', street='Sadovaya', house='7', flat=51}, Barashkon Sashaa 36 Adress{city='Minsk', street='Sadovaya', house='7', flat=51}], teacher=[Teacher{salary=0.0, defSalary=2000.0, id=3}, Teacher{salary=0.0, defSalary=2000.0, id=5}, Teacher{salary=0.0, defSalary=2000.0, id=7}, Teacher{salary=0.0, defSalary=2000.0, id=9}]}
+Group{name='Математика', course=33, arStudents=[Ivanova Larisa 18 Adress{city='Borisov', street='Pavlaraka', house='43a', flat=55}, Petrova ALina 20 Adress{city='Borisov', street='Pribory', house='1', flat=88}, Soroka Irina 44 Adress{city='Minsk', street='Sadovaya', house='43d', flat=22}, Karaban Vasy 36 Adress{city='Minsk', street='Sadovaya', house='7', flat=51}, Barashkon Sashaa 36 Adress{city='Minsk', street='Sadovaya', house='7', flat=51}], teacher=[Teacher{salary=0.0, defSalary=2000.0, id=3}, Teacher{salary=0.0, defSalary=2000.0, id=5}, Teacher{salary=0.0, defSalary=2000.0, id=7}, Teacher{salary=0.0, defSalary=2000.0, id=9}]}

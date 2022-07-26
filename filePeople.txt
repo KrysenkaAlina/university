@@ -1,0 +1,9 @@
+1 Ivanova Larisa 18 Borisov Pavlaraka 43a 55 1
+2 Petrova ALina 20 Borisov Pribory 1 88 1
+3 Monich Anna 20 Vitebsk Sadovaya 234 3 2 1 3000
+4 Soroka Irina 44 Minsk Sadovaya 43d 22 1
+5 Megel Dmitri 34 Minsk Sadovaya 55 11 2 1 1000
+6 Karaban Vasy 36 Minsk Sadovaya 7 51 1
+7 Jiglov Pety 36 Minsk Sadovaya 7 51 2 2
+8 Barashkon Sashaa 36 Minsk Sadovaya 7 51 1
+9 Petrov Pety 36 Minsk Sadovaya 7 51 2 2
